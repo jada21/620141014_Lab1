@@ -1,4 +1,4 @@
-
+#Jada Campbell 620141014 ECSE3038 Lab1
 def parallel(*resistors):
     result = 0
     sum = 0
