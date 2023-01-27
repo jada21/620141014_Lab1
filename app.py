@@ -23,3 +23,24 @@ def potential_divider(voltage, resistor2s=[]):
 
 values=[3000, 1000,]
 potential_divider(9, values)
+
+
+def temperature_check(temp, unit):
+    print("\n")
+    if (unit == "C"):
+        if temp > 38:
+            print("the patient is hyperthermic")
+        elif temp < 35:
+            print("The patient is hypothermic")
+        else:
+            print("The patient is normal")
+    
+    if (unit == "F"):
+        if temp > 100:
+            print("the patient is hyperthermic")
+        elif temp < 95:
+            print("The patient is hypothermic")
+        else:
+            print("The patient is normal")
+
+temperature_check(200, "F")
